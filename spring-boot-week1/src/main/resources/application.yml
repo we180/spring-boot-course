@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: quickstart
+
+# 自定义配置，心情语录
+my:
+  # 心情语录
+  mood:
+    today: 周五
+    content: 但是周六周日满课
+    author: "卢本伟"
+  #功能开关
+  feature:
+    helloSwitch: false
+    closeMsg: "接口正在维护中,暂时关闭"
