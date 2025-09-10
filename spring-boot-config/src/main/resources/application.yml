@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+team:
+  name: Web2班
+  leader: ${teacher.name}
+  age: ${random.int(1,4)}
+  phone: 13951519704
+
+
+teacher:
+  name: mqxu
+
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB      #单个文件大小
+      max-request-size: 100MB  #单次文件大小
