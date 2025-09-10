@@ -11,6 +11,7 @@
     <groupId>top.cs</groupId>
     <artifactId>spring-boot-course</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>spring-boot-course</name>
     <description>spring-boot-course</description>
     <url/>
@@ -20,6 +21,9 @@
     <developers>
         <developer/>
     </developers>
+    <modules>
+        <module>spring-boot-config</module>
+    </modules>
     <scm>
         <connection/>
         <developerConnection/>
