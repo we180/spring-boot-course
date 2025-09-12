@@ -1,4 +1,4 @@
-package top.cs.boot.config.service;
+package top.cs.boot.config.service.Impl;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
@@ -8,13 +8,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import top.cs.boot.config.config.OssConfig;
+import top.cs.boot.config.service.OssService;
 
 import java.io.InputStream;
 import java.util.UUID;
 
 @Service
 @Slf4j
-public class OssServiceImpl implements OssService{
+public class OssServiceImpl implements OssService {
     @Resource
     private OssConfig ossConfig;
     @Override
