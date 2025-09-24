@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0
+      password:
+      lettuce:
+        pool:
+            max-active: 50
+            max-idle: 20
+            min-idle: 10
