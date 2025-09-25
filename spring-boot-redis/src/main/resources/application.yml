@@ -13,3 +13,5 @@ spring:
             max-active: 50
             max-idle: 20
             min-idle: 10
+
+#容联云配置git忽略
