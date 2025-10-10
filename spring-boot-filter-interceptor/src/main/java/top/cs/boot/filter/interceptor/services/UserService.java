@@ -19,8 +19,8 @@ public class UserService {
      * 静态代码块，初始化用户数据，它会比构造方法先执行
      */
     static {
-        MOCK_USERS.add(new User(1L, "admin", "123456", "admin@example.com", "13800000001", "ADMIN"));
-        MOCK_USERS.add(new User(2L, "user", "123456", "user@example.com", "13800000002", "USER"));
+        MOCK_USERS.add(new User(1L, "admin", "123456", "admin@example.com", "13800000001", "admin"));
+        MOCK_USERS.add(new User(2L, "user", "123456", "user@example.com", "13800000002", "user"));
     }
 
     /**
